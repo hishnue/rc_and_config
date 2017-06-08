@@ -6,20 +6,11 @@ set colorcolumn=120
 set autoindent
 set ruler
 set number
-/Users/mfink/.vimrc
-set ts=8
-set expandtab
-set softtabstop=4
-set shiftwidth=4
-set colorcolumn=120
-set autoindent
-set ruler
-set number
+set showmatch
 syntax enable
 set cursorline 
 hi clear CursorLine
 hi CursorLine gui=underline cterm=underline
-set showmatch
 let python_highlight_all=1
 au FileType python setlocal formatprg=autopep8\ -
 let @a = 'viw"yyo    self.y = y'
