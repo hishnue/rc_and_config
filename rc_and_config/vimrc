@@ -14,3 +14,7 @@ hi CursorLine gui=underline cterm=underline
 let python_highlight_all=1
 au FileType python setlocal formatprg=autopep8\ -
 let @a = 'viw"yyo    self.y = y'
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
